@@ -380,7 +380,7 @@ async def The_Trigonometry_menu(update: Update, context: CallbackContext) -> Non
 
 
 def main() -> None:
-    application = Application.builder().token("7064007977:AAERAkiWxjjjglwhxDuqmf8TCM013T-4UqA").build()
+    application = Application.builder().token("TOKEN").build()
 
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CallbackQueryHandler(button))
